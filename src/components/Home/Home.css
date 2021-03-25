@@ -1,0 +1,60 @@
+.top-home {
+  background-image: url(../../images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 30%;
+}
+
+.name-header {
+  left: 0;
+  line-height: 11.25rem;
+  margin-top: -17%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 83%;
+  color: white;
+}
+
+.job-header {
+  left: 0;
+  line-height: 10rem;
+  margin-top: 6%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  padding-left: 50%;
+  color: white;
+}
+
+.home-bottom-title {
+  text-align: right;
+  padding-right: 30%;
+  padding-bottom: 2%;
+}
+
+.bottom-home {
+  display: flex;
+  padding: 10%;
+}
+
+.portrait {
+  margin: auto;
+}
+
+.summary {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-right: 30px;
+}
+
+.personal-info {
+  text-align: left;
+  float: right;
+  margin: auto;
+  width: 500px;
+  padding-left: 30px;
+}
