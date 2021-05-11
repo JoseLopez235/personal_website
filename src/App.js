@@ -4,23 +4,25 @@ import {
   Switch, 
   Route
 } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar'
+import 'semantic-ui-css/semantic.min.css'
+import NavBar from './components/NavBar'
 import Home from './components/Home/Home'
+import Project from './components/Project/Project'
 import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-      </div>
-
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/projects">
+            <Project />
+          </Route>
+        </Switch>
+      </Router>
   );
 }
 
